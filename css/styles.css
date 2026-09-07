@@ -5,7 +5,7 @@
     /* Colores (Paleta Overcome Fitness) */
     --color-surface:rgb(156, 36, 56);
     --color-bg: #dfdfdf;
-    --color-primary:#2ab911;
+    --color-primary:#fc4ee4;
     --color-text: #f2f2f2;
     --color-secondary: #237e29;
     --color-muted: #b9b9b9;
@@ -206,8 +206,8 @@ img {
 }
 
 .btn--primary {
-    background-color: var(--color-primary);
-    color: #000;
+    background-color: var(--color-header-bg);
+    color: var(--color-bg);
     font-weight: 600;
 }
 
@@ -228,7 +228,7 @@ img {
 .sobre {
     text-align: center;
     font-size: 1rem;
-    color: var(--color-muted);
+    color: var(--color-primary);
     padding-top: 4rem;
     padding-bottom: 4rem;
     /* padding-left: 3rem;
