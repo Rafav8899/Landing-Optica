@@ -314,7 +314,7 @@ img {
     background: rgba(255, 255, 255, 0.041);
 }
 .servicio-header p{
-    color: rgb(165, 163, 163);
+    color: var(--color-bg);
 }
 /*
 .servicio-content{
@@ -362,6 +362,13 @@ img {
     text-transform:uppercase ;
     letter-spacing: 2px;
     font-size: 2rem;
+}
+
+.servicio-header h3 {
+    /* margin-bottom: 0.5rem; */
+    /* font-size: 1.1rem; */
+    /* text-align: center; */
+    color: var(--color-bg);
 }
 .planes h2{
     text-align: center;
@@ -419,7 +426,7 @@ img {
     max-height: 0;
     overflow: hidden;
     padding: 0 1.2rem;
-    color: var(--color-muted);
+    color: var(--color-bg);
     text-align: start;
 
     transition: max-height 0.4s ease;
