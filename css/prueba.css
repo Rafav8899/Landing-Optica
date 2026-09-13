@@ -470,15 +470,7 @@ img {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.profes-grid{
-    /* FLEX si es uno. GRID si son varios*/
-    display: grid; 
-    gap: 2rem;
-    justify-content: center;
-    justify-items: center;
-    flex-direction: row repeat(2, 1fr); 
-    /* grid-template-columns: repeat(2, 1fr); */
-}
+
 
 
 
