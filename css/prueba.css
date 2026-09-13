@@ -567,10 +567,12 @@ img {
     justify-content: center;
 }
 
-
-
-
+/* ================================================= */
+/* SECTION CATÁLOGO  */
+/* ================================================= */
 /* Configuración básica de la sección */
+
+
 .seccion-catalogo {
   padding: 2rem 1rem;
   max-width: 1200px;
