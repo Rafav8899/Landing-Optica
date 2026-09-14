@@ -3,15 +3,15 @@
 ========================= */
 :root {
     /* Colores (Paleta Overcome Fitness) */
-    --color-surface:#B92828;
+    --color-surface:#BA294B;
     --color-bg: #F9F9F9;
     --color-primary:rgb(156, 36, 56);
     --color-text: #101010;
     --color-sub-text:#161616;
     --color-secondary: #237e29;
     /* --color-muted: #555555; */
-    --color-header-bg: rgba(170, 47, 64, 0.9);
-    --color-header-text: #f2f2f2;
+    /* --color-header-bg: rgba(170, 47, 64, 0.9); */
+    /* --color-header-text: #f2f2f2; */
     --shadow:0 0 10px rgba(71, 71, 71, 0.15);
 
     /* Tipografía */
@@ -93,8 +93,8 @@ img {
     position: fixed; 
     top: 0;
     width: 100%;
-    background-color: var(--color-header-bg);
-    color: var(--color-header-text);
+    background-color: var(--color-surface);
+    color: var(--color-bg);
     backdrop-filter: blur(6px);
     z-index: 1000;
     transition: var(--transition);
@@ -138,7 +138,7 @@ img {
 }
 
 .header a{
-    color: var(--color-header-text);
+    color: var(--color-bg);
     transition: color 0.3s ease;
 }
 /*.theme-toggle
@@ -175,7 +175,7 @@ img {
     background-size: cover;
     background-position: center;
 
-    color: #ffffff;
+    color: var(--color-bg);
 }
 
 .hero__content h1 {
@@ -205,7 +205,7 @@ img {
 }
 
 .btn--primary {
-    background-color: var(--color-header-bg);
+    background-color: var(--color-surface);
     color: var(--color-bg);
     font-weight: 600;
 }
@@ -364,7 +364,7 @@ img {
 .card-icon{
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--color-primary);
+    color: var(--color-surface);
     transition: transform 0.3s ease;
 }
 /* CONTENIDO (oculto) */
@@ -482,12 +482,12 @@ img {
 
 .catalogo-header h2 {
   font-size: 1.8rem;
-  color: #111;
+  color: var(--color-text);
   margin-bottom: 0.5rem;
 }
 
 .catalogo-header p {
-  color: #666;
+  color: var(--color-sub-text);
   font-size: 0.95rem;
 }
 
@@ -500,7 +500,7 @@ img {
 
 /* Estructura individual de la tarjeta */
 .tarjeta-producto {
-  background-color: #ffffff;
+  background-color: var(--color-bg);
   border-radius: 12px;
   border: 1px solid #e5e5e5;
   overflow: hidden;
@@ -518,7 +518,7 @@ img {
 /* Header de la tarjeta (Imagen + Badge) */
 .tarjeta-header {
   position: relative;
-  background-color: #f9f9f9;
+  background-color: var(--color-bg);
   height: 200px;
   display: flex;
   align-items: center;
@@ -535,8 +535,8 @@ img {
   position: absolute;
   top: 12px;
   right: 12px;
-  background-color: #d62828; /* Podés ajustarlo al magenta de tu paleta si querés */
-  color: #ffffff;
+  background-color: var(--color-surface); /* Podés ajustarlo al magenta de tu paleta si querés */
+  color: var(--color-bg);
   font-size: 0.75rem;
   font-weight: bold;
   padding: 4px 10px;
@@ -554,13 +554,13 @@ img {
 
 .tarjeta-titulo {
   font-size: 1.2rem;
-  color: #222;
+  color: var(--color-text);
   margin: 0 0 0.5rem 0;
 }
 
 .tarjeta-descripcion {
   font-size: 0.9rem;
-  color: #555;
+  color: var(--color-sub-text);
   line-height: 1.4;
   margin-bottom: 1rem;
   flex-grow: 1;
@@ -569,7 +569,7 @@ img {
 .tarjeta-precio {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #111;
+  color: var(--color-text);
 }
 
 /* Footer de la tarjeta */
@@ -580,8 +580,8 @@ img {
 .btn-detalles {
   display: block;
   text-align: center;
-  background-color: #111111;
-  color: #ffffff;
+  background-color: var(--color-text);
+  color: var(--color-bg);
   text-decoration: none;
   padding: 10px;
   border-radius: 6px;
