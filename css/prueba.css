@@ -3,17 +3,16 @@
 ========================= */
 :root {
     /* Colores (Paleta Overcome Fitness) */
-    --color-surface:rgb(156, 36, 56);
-    --color-bg: #ebebeb;
+    --color-surface:#B92828;
+    --color-bg: #F9F9F9;
     --color-primary:rgb(156, 36, 56);
-    --color-text: #333333;
+    --color-text: #101010;
+    --color-sub-text:#161616;
     --color-secondary: #237e29;
-    --color-muted: #555555;
+    /* --color-muted: #555555; */
     --color-header-bg: rgba(170, 47, 64, 0.9);
     --color-header-text: #f2f2f2;
     --shadow:0 0 10px rgba(71, 71, 71, 0.15);
-
-
 
     /* Tipografía */
     --font-main: 'Inter', system-ui, sans-serif;
@@ -331,7 +330,7 @@ img {
     text-align: center;
     max-width: 600px;
     margin: 0 auto 2.5rem;
-    color:var(--color-muted);
+    color:var(--color-sub-text);
 }
 .cards,
 .services{
@@ -443,7 +442,7 @@ img {
 }
 .contacto p {
     margin-bottom: 0.75rem;
-    color: var(--color-muted);
+    color: var(--color-);
 }
 .contacto a:hover{
     transform: scale(1.05);
@@ -458,7 +457,7 @@ img {
 .footer {
     text-align: center;
     font-size: 0.85rem;
-    color: var(--color-muted);
+    color: var(--color-sub-text);
     padding:2rem;
     justify-content: center;
 }
@@ -687,7 +686,7 @@ img {
 
     .nav a {
         position: relative;
-        color: var(--color-text);
+        color: var(--color-bg);
         opacity: 0.8;
     }
 
