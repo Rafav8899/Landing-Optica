@@ -72,8 +72,7 @@ img {
 .values,
 .menu,
 .contacto,
-.footer,
-.profes {
+.footer {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: var(--padding-mobile);
