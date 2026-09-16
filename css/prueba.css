@@ -7,7 +7,7 @@
     --color-bg: #F9F9F9;
     --color-primary:rgb(156, 36, 56);
     --color-text: #101010;
-    --color-sub-text:#161616;
+    --color-sub-text:#333333;
     --color-secondary: #237e29;
     /* --color-muted: #555555; */
     /* --color-header-bg: rgba(170, 47, 64, 0.9); */
@@ -635,8 +635,7 @@ img {
     }
 
     .planes,
-    .servicios,
-    .profes-grid {
+    .servicios {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         justify-items: center;
