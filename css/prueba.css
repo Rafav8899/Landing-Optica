@@ -656,14 +656,6 @@ img {
         max-width: none;
     }
 
-    .profes-grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
-        justify-content: center;
-        justify-items: center;
-        gap: 2rem;
-        width: 100%;
-    }
 
 }
 
