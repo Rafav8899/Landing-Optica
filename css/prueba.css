@@ -664,9 +664,6 @@ img {
         gap: 2rem;
         width: 100%;
     }
-    .profes h2{
-        grid-column:1 / -1;
-    }
 
 }
 
