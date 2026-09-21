@@ -297,8 +297,39 @@ img {
 }
 
 /* =========================
-   PLANES / METODOLOGIA
+    PLANES 
 ========================= */
+
+/* ==========================================================
+   1. ESTILOS BASE: DISPOSITIVOS MÓVILES (Por defecto)
+   Se aplican a smartphones. Todo se muestra en una columna vertical.
+   ========================================================== */
+
+.seccion-servicios {
+  padding: 1.5rem 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.servicios-wrapper {
+  display: flex;
+  flex-direction: column; /* Apilado en celular: texto arriba, imágenes abajo */
+  gap: 2rem;
+}
+
+.servicios-contenido, 
+.servicios-imagenes {
+  width: 100%; /* Ocupan todo el ancho disponible en mobile */
+}
+
+/* Grilla interna de tarjetas para celular */
+.grid-tarjetas-servicios {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 sola columna */
+  gap: 1rem;
+}
+
+
 
 .planes,
 .servicios {
@@ -629,6 +660,17 @@ img {
         gap: 2rem;
     }
 
+    .seccion-servicios {
+    padding: 2.5rem 2rem;
+    max-width: 720px;
+  }
+
+  /* Pasamos las tarjetas internas a 2 columnas en tablets */
+  .grid-tarjetas-servicios {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
     .value {
         flex: 1 1 45%;
     }
@@ -693,6 +735,26 @@ img {
         max-width: 700px;
         font-size: 1.05rem;
     }
+
+
+    .seccion-servicios {
+    max-width: 1140px; /* Ancho máximo corporativo */
+    padding: 4rem 2rem;
+  }
+
+  /* Convertimos el wrapper en filas lado a lado (Texto e Imágenes) */
+  .servicios-wrapper {
+    flex-direction: row; /* Texto a un lado, imágenes al otro */
+    align-items: center;
+    gap: 3rem;
+  }
+
+  /* Cada bloque ocupa el 50% del ancho de forma equilibrada */
+  .servicios-contenido, 
+  .servicios-imagenes {
+    flex: 1;
+  }
+
 
 
     /* PLANES */
