@@ -319,7 +319,7 @@ img {
 
 .servicios-contenido, 
 .servicios-imagenes {
-  width: 100%; /* Ocupan todo el ancho disponible en mobile */
+  width: 70%; /* Ocupan todo el ancho disponible en mobile */
 }
 
 /* Grilla interna de tarjetas para celular */
